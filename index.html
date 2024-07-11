@@ -62,7 +62,7 @@
     </div>
     <script src="arcamera.js" type="text/javascript"></script>
     <script src="wtracker.js" type="text/javascript"></script>
-    <script src="Build/arunity2.loader.js"></script>
+    <script src="Build/ar4.loader.js"></script>
     <script>
         var initialize = async() =>{
             var unityCanvas = document.querySelector("#unity-canvas");
@@ -96,9 +96,9 @@
             
             document.getElementById('startARDiv').style.display = 'none';
             createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/arunity2.data",
-                    frameworkUrl: "Build/arunity2.framework.js",
-                    codeUrl: "Build/arunity2.wasm",
+                    dataUrl: "Build/ar4.data",
+                    frameworkUrl: "Build/ar4.framework.js",
+                    codeUrl: "Build/ar4.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "DefaultCompany",
                     productName: "viewInAr",
